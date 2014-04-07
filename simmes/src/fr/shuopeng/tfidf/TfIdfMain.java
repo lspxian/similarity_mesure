@@ -13,7 +13,7 @@ public class TfIdfMain {
     public static void main(String args[]) throws FileNotFoundException, IOException
     {
         DocumentParser dp = new DocumentParser();
-        dp.parseFiles("WWDC2014");//location of your source files, only text file
+        dp.parseFiles("testFolder");//location of your source files, only text file
         dp.tfIdfCalculator(); //calculates tfidf
         dp.getCosineSimilarity(); //calculated cosine similarity  
     }

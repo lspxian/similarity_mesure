@@ -40,6 +40,7 @@ public class DocumentParser {
                 termsDocsArray.add(tokenizedTerms);
             }
         }
+        System.out.println("\n");
 
     }
 
