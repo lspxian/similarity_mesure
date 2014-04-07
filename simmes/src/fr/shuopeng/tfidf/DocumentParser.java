@@ -24,6 +24,7 @@ public class DocumentParser {
         BufferedReader in = null;
         for (File f : allfiles) {
             if (f.getName().endsWith(".txt")) {
+            	System.out.println(f.getName());
                 in = new BufferedReader(new FileReader(f));
                 StringBuilder sb = new StringBuilder();
                 String s = null;
@@ -77,6 +78,7 @@ public class DocumentParser {
                                        )
                                   );
             }
+            System.out.println("\n");
         }
     }
 }
